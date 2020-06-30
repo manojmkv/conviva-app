@@ -16,6 +16,6 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'interface-name-prefix': 'off',
     'type-annotation-spacing': 'off',
-    'no-inferrable-types': 'off'
+    'no-inferrable-types': 'off',
   }
 }
