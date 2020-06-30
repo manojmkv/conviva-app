@@ -28,9 +28,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Vue } from "vue-property-decorator";
 import ConfigurationParameterClient from "../api/ConfigurationParameterClient";
-import * as store from "../state/store";
 
 @Component
 export default class UpperContainer extends Vue {

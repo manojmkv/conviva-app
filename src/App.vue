@@ -14,7 +14,7 @@ import LandingPage from './components/landing.vue';
   },
 })
 export default class App extends Vue {
-  welcomeNote: string = "A Conviva Employee details App";
+  welcomeNote = "A Conviva Employee details App";
 }
 </script>
 
